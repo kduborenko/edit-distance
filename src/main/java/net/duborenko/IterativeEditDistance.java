@@ -1,6 +1,10 @@
 package net.duborenko;
 
 /**
+ * First attempt to rebuild recursive algorithm {@link RecursiveMemoizationEditDistance} in iterative way.
+ * <p>
+ * Runtime complexity of this solution is {@code O(n^2)}, and it requires {@code O(n^2)} extra memory.
+ *
  * @author Kiryl Dubarenka
  */
 @Order(2)

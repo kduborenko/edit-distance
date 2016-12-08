@@ -1,6 +1,13 @@
 package net.duborenko;
 
 /**
+ * Simple and not optimized algorithms of calculating "Minimum Edit Distance".
+ *
+ * This algorithm is just a straight-forward implementation of the following recurrence:<p/>
+ * <img src="https://goo.gl/kpy5HC"/>
+ * <p>
+ * Runtime complexity of this solution is {@code O(e^n)}.
+ *
  * @author Kiryl Dubarenka
  */
 @Order(0)

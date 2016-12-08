@@ -1,6 +1,10 @@
 package net.duborenko;
 
 /**
+ * Variation of iterative algorithm which requires less memory than {@link IterativeEditDistance}.
+ * <p>
+ * Runtime complexity of this solution is {@code O(n^2)}, and it requires {@code O(n)} extra memory.
+ *
  * @author Kiryl Dubarenka
  */
 @Order(3)
